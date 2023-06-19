@@ -1,27 +1,9 @@
 # -*- coding: utf-8 -*-
-
-#import networkx as nx
-#import matplotlib.pyplot as plt
 import ALG_LinkingMethods2 as cm
-#import time
 import multiprocessing
-#import sys
-#import random
 import linecache
-# import soc_sign_bitcoinotc
-# import network_colledgeMsg
-# import network_cit_new
-# import network_haggle
 import copy
 import math
-# def MaxConnectedComponent(nodeAttribute,nodeNeighbors):
-#     seen = set()
-#     for v in nodeAttribute.keys():
-#         if v not in seen:
-#             c = set(_plain_bfs(G, v))
-#             yield c
-#             seen.update(c)
-#nx.is_connected() 是否联通需要做一次bfs遍历
 def test1(evolutionmodel,initsize,methods,duration=None):
     """
 
